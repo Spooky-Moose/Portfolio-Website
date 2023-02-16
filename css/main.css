@@ -11,3 +11,8 @@
   .fa:hover {
     opacity: 0.7;
   }
+
+  .ribbon{
+    height: 12px;
+    background-color: #1E261F;
+  }
