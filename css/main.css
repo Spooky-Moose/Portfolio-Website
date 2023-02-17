@@ -16,3 +16,7 @@
     height: 12px;
     background-color: #1E261F;
   }
+
+  #gallery-modal .modal-img{
+    width: 100%;
+  }
