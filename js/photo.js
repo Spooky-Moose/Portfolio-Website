@@ -1,3 +1,14 @@
+//Right Click Disabled for Gallery Items
+document.addEventListener('contextmenu', (e) => {
+    
+    if (e.target.classList.contains("gallery-item") || ("modal-img")){
+        e.preventDefault();
+    }
+    
+
+});
+
+//Modal View Event Listener
 document.addEventListener("click", function (e){
     //console.log(e.target);
     if(e.target.classList.contains("gallery-item")){
@@ -11,3 +22,5 @@ document.addEventListener("click", function (e){
         $('#gallery-modal').modal('show')
     }
 })
+
+
