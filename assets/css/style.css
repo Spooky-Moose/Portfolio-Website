@@ -220,7 +220,7 @@ h6 {
   #header h2 {
     font-size: 20px;
     line-height: 30px;
-    width: max-content;
+    /* width: max-content; */
   }
 
   #header .social-links {
