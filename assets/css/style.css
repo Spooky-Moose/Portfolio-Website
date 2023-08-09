@@ -523,6 +523,16 @@ section .container {
   margin-bottom: 0;
 }
 
+/*Demo Reel Sizing*/
+.demo-div{
+  height: 20rem;
+}
+
+.demo-frame{
+  width: 100%;
+  height: 100%;
+}
+
 
 /*--------------------------------------------------------------
 # Counts
