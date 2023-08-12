@@ -537,6 +537,19 @@ section .container {
   color: #000;
 }
 
+#gallery-modal .modal-img{
+  width: 100%;
+}
+
+@media (max-width: 991px){
+  .gallery-item{
+    max-width: 75% !important;
+    
+  }
+  
+  
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
