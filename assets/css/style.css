@@ -550,6 +550,10 @@ section .container {
     max-width: 75% !important;
     
   }
+
+  .macks-div{
+    height: 20rem;
+  }
   
   
 }
